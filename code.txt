@@ -1,0 +1,5 @@
+#Program to find the sum and average of 3 values
+a,b,c = map(int,input().split())
+
+print("The sum of 3 values is ",a+b+c)
+print("The average of 3 values is ",(a+b+c)/3)
